@@ -1,0 +1,15 @@
+//
+//  PrivateConfig.xcconfig
+//  DollarDalla
+//
+//  Created by 이서준 on 3/27/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_BASE_URL = https:/$()/query1.finance.yahoo.com/v6
+
+CLIENT_EMAIL = dollardalla@dollardalla.iam.gserviceaccount.com
+PRIVATE_KEY_ID = 944cce219f13c434fb95cb2e2a11330b98d8c13b
+PRIVATE_KEY = -----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDE/MJSsnCbpcxr\nufPNxvZJ92ZKDfGLAeT9Rvnh4DmLnGEV05bU+iJYENmICryNYxRuto9GwCiDgocm\nPZmpvYZ/6QxETa25pJ97cuuPYQaoStaKjWEAy8d7RSV3UGjgdAqDY+rus9QT0J56\n6vnr9WvdzmyGtWWVMgoSbVs9h0OusRnF9/VGAdjeqzhet6nOTaWKLC2cf4/yDHW5\n1Y9LikGN+pkhtW2jmbLOGPTNgcEUSZ0BiiHwzrbPUg3ULRzhW53A8dfweoeKTtVQ\nBLtmyZsueWZJyeAytgL55PTaxYmBuuIshbNSYQvm+rL8GhV0opTQO81x+G7kXLpk\nATvVAJ8fAgMBAAECggEADzrnn1Myh6Yy/uU6p19JrYBWRUV8tl2oIbj6Gu+mI1gs\n3W4ljEPmod5zoyQJXfkaHFE7FKJIv5o47sj2d3wyyPLwwtsqol7LAdVpxwUeaaaX\nndC+fjxDKRG4itgJs8jlAzGXeWsn63xGtIQ0XHz2IQkTtPqTZwyeYLxZwJETt47Q\n7DXnPkSpYOySDWUWMOKf6yCZK2mYMXZYJg6trK3qS+yid4jhrXWuUaBeIdMKVrfA\nSCOH/Bk3CCgZaE9jyCjnyFvLLoBO0KEiggybDTE7Rr/+oln6U12KhqmTJlPzOytF\nh8Az1Ty0O2jfWouxUmS1/OG5fiHPnkT0oR3AMd59CQKBgQD13ulWD3cSKQqErWma\nzOXdiVCPEbDxERXCwRXtqXx1R1E/rzYW9lg5ESCAWIPZ59/Njyk6bvGXjUqjfdw3\n8l7OCMyA4HwCQtDRb3aAE6bZwFfm/QKByOp5EG/bN3ud7JgvADWTqVH8myUeLKuZ\nROtDOtTIgVf1ba6WiXMp4axn3QKBgQDNGkvVNqXf1yCGupgYgVbD0o1+6g4MAWw8\nOOvnL2Mu2r91ba4ctazMLRjNREdn3iYPHH+3lGVGZPv3+6MxCz7l/JNNJSN8y2kK\niXK9/McVTJ7TTVqo3edU9BzYkbOi+ZmyXRTHumlfBAktXlvZS8Ezsc+VPai46pn8\nixAmryORKwKBgDLxg/FT9PzrSgWhlK8BY2NajzmFld7tBlA7B5sdse7u3vPODuwF\nENSKKuzM6kzdEW8bCZTU5fPbz6o+asGg02nnQtA1MxyY0YGDkc8Jw1l80/nFVJ6l\njYeWE0cdoNxg6EtcxL0aqSUo1DEDWm7Aa+qbJvmAa0Qr/K+uPRFhdAJ1AoGANfti\n1CZC+Cwl2nAIEgMQtA+ZwDqYId7J/vu4UyusvitC0wRgHBxQ85g2++epp5PXjoig\nsM+07BcuHjGz3PepwVx95IMO2Qysg+JzOb/rIhb9gn3Mi7+D4F8zrGiE0DNDmadY\nDc1paGGmjLNWF1YR7qoxCYWl/613g/mR8ayM/usCgYAt8UHDgRUL2yzGKy/MjVjs\n9JoHsYXtrdX0TOJF0Er8f+6Y6U+akRYyKAbV6HVcjPl7tl5VrDbbOVuB4uC2SvpJ\nXHCFyR3P/AwJttIaVsVHphJ/iwg25T5tLLl5XK0JH1e4Dq076PNefOgMDqczJ98Q\nstx4YVTLpUHh/hExMolLzg==\n-----END PRIVATE KEY-----\n

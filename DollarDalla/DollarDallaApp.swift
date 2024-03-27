@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct DollarDallaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                store: Store(initialState: Finance.State()) {
+                    Finance()
+                        ._printChanges()
+                }
+            )
         }
     }
 }

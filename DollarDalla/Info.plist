@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_BASE_URL</key>
+	<string>$(API_BASE_URL)</string>
+	<key>CLIENT_EMAIL</key>
+	<string>$(CLIENT_EMAIL)</string>
+	<key>PRIVATE_KEY</key>
+	<string>$(PRIVATE_KEY)</string>
+	<key>PRIVATE_KEY_ID</key>
+	<string>$(PRIVATE_KEY_ID)</string>
+</dict>
+</plist>

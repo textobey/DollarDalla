@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A65D45032BB3AB8D003BA407 /* DollarDalla++Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D45022BB3AB8D003BA407 /* DollarDalla++Bundle.swift */; };
+		A65D45232BB3DA9A003BA407 /* FinanceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D45222BB3DA9A003BA407 /* FinanceClient.swift */; };
+		A65D45262BB3DAEC003BA407 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = A65D45252BB3DAEC003BA407 /* ComposableArchitecture */; };
+		A65D45292BB3DD78003BA407 /* OptionChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D45282BB3DD78003BA407 /* OptionChain.swift */; };
 		A6DB55432BB2AE8500788EB8 /* DollarDallaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB55422BB2AE8500788EB8 /* DollarDallaApp.swift */; };
 		A6DB55452BB2AE8500788EB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB55442BB2AE8500788EB8 /* ContentView.swift */; };
 		A6DB55472BB2AE8700788EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DB55462BB2AE8700788EB8 /* Assets.xcassets */; };
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A65D45002BB3AAB2003BA407 /* PrivateConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = PrivateConfig.xcconfig; sourceTree = "<group>"; };
+		A65D45012BB3AAE7003BA407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A65D45022BB3AB8D003BA407 /* DollarDalla++Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DollarDalla++Bundle.swift"; sourceTree = "<group>"; };
+		A65D45222BB3DA9A003BA407 /* FinanceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceClient.swift; sourceTree = "<group>"; };
+		A65D45282BB3DD78003BA407 /* OptionChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionChain.swift; sourceTree = "<group>"; };
 		A6DB553F2BB2AE8500788EB8 /* DollarDalla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollarDalla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DB55422BB2AE8500788EB8 /* DollarDallaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarDallaApp.swift; sourceTree = "<group>"; };
 		A6DB55442BB2AE8500788EB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65D45262BB3DAEC003BA407 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +81,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A65D45272BB3DD6B003BA407 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A65D45282BB3DD78003BA407 /* OptionChain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A6DB55362BB2AE8500788EB8 = {
 			isa = PBXGroup;
 			children = (
+				A65D45002BB3AAB2003BA407 /* PrivateConfig.xcconfig */,
 				A6DB55412BB2AE8500788EB8 /* DollarDalla */,
 				A6DB55522BB2AE8700788EB8 /* DollarDallaTests */,
 				A6DB555C2BB2AE8700788EB8 /* DollarDallaUITests */,
@@ -94,8 +113,12 @@
 		A6DB55412BB2AE8500788EB8 /* DollarDalla */ = {
 			isa = PBXGroup;
 			children = (
+				A65D45012BB3AAE7003BA407 /* Info.plist */,
 				A6DB55422BB2AE8500788EB8 /* DollarDallaApp.swift */,
 				A6DB55442BB2AE8500788EB8 /* ContentView.swift */,
+				A65D45022BB3AB8D003BA407 /* DollarDalla++Bundle.swift */,
+				A65D45222BB3DA9A003BA407 /* FinanceClient.swift */,
+				A65D45272BB3DD6B003BA407 /* Model */,
 				A6DB55462BB2AE8700788EB8 /* Assets.xcassets */,
 				A6DB55482BB2AE8700788EB8 /* Preview Content */,
 			);
@@ -143,6 +166,9 @@
 			dependencies = (
 			);
 			name = DollarDalla;
+			packageProductDependencies = (
+				A65D45252BB3DAEC003BA407 /* ComposableArchitecture */,
+			);
 			productName = DollarDalla;
 			productReference = A6DB553F2BB2AE8500788EB8 /* DollarDalla.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +241,9 @@
 				Base,
 			);
 			mainGroup = A6DB55362BB2AE8500788EB8;
+			packageReferences = (
+				A65D45242BB3DAEC003BA407 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = A6DB55402BB2AE8500788EB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65D45032BB3AB8D003BA407 /* DollarDalla++Bundle.swift in Sources */,
+				A65D45232BB3DA9A003BA407 /* FinanceClient.swift in Sources */,
+				A65D45292BB3DD78003BA407 /* OptionChain.swift in Sources */,
 				A6DB55452BB2AE8500788EB8 /* ContentView.swift in Sources */,
 				A6DB55432BB2AE8500788EB8 /* DollarDallaApp.swift in Sources */,
 			);
@@ -297,6 +329,7 @@
 /* Begin XCBuildConfiguration section */
 		A6DB55612BB2AE8700788EB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65D45002BB3AAB2003BA407 /* PrivateConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -347,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +437,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -425,6 +458,7 @@
 				DEVELOPMENT_TEAM = HU8RMC793N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DollarDalla/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +488,7 @@
 				DEVELOPMENT_TEAM = HU8RMC793N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DollarDalla/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +623,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A65D45242BB3DAEC003BA407 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A65D45252BB3DAEC003BA407 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A65D45242BB3DAEC003BA407 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A6DB55372BB2AE8500788EB8 /* Project object */;
 }
